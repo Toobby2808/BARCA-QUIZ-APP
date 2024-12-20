@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Fonts/css/all.css">
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- NAVBAR -->
+   <nav class="nav-bar">
+    <div class="container d-flex justify-content-between align-items-center">
+      <div class="navbar-brand">
+        <a href="#">
+          <img class="me-1" src="./images/barca_logo-removebg-preview.png" alt="barca logo" class="img-fluid">
+          BARCA <span class="text-gold">BLOG</span>
+        </a>
+      </div>
+
+      <ul class="navbar-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="quiz.html">Quiz</a></li>
+        <li><a href="players.html">Players</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+
+      <div class="hamburger-btn text-white">
+        <i class="fas fa-bars"></i>
+      </div>
+
+      <ul class="mobile-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="quiz.html">Quiz</a></li>
+        <li><a href="players.html">Players</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container text-center">
+    <h3 class="popup fw-bold my-5 text-gold">BARCA QUIZ</h3>
+  </div>
+
+  <!-- Result section -->
+  <div class="result d-none py-4 text-center">
+  <div class="container text-gold">
+    <p class="fw-bold fs-1">Your Score <br> <span class="scoreboard p-3">0</span>/ 20 </p>
+  </div>
+  <p class="text-white fw-semibold mt-3 remark lead"></p>
+  </div>
+  
+  <div class="quiz">
+    <div class="container">
+      <div class="row d-flex align-items-center justify-content-center">
+        <div class="col-sm-8 bg-white rounded">
+          <form class="quiz-form">
+
+            <div class="my-2 p-4">
+    
+              <h6 class="fw-semibold">1). What are the colors of Fc Barcelona's home kit?</h6>
+              <div class="form-check my-2">
+                <input type="radio" name="q1" value="A">
+                <label  class="form-check-label">Red and Blue</label>
+              </div>
+              <div class="form-check my-2">
+                <input type="radio" name="q1" value="B">
+                <label  class="form-check-label">Blue and Claret</label>
+              </div>
+              <div class="form-check my-2">
+                <input type="radio" name="q1" value="C">
+                <label  class="form-check-label">Yellow and Red</label>
+              </div>
+              <div class="form-check my-2">
+                <input type="radio" name="q1" value="D">
+                <label  class="form-check-label">Blue and Purple</label>
+              </div>
+    
+            </div>
+    
+            <!-- NO 2 -->
+            <div class="my-2 p-4">
+              <h6 class="fw-semibold">2). Who did Messi surpass to become Barcelona's all-time top goalscorer?</h6>
+              <div class="form-check my-2">
+                <input type="radio" name="q2" value="A">
+                <label  class="form-check-label">Cesar Rodriguez</label>
+              </div>
+              <div class="form-check my-2">
+                <input type="radio" name="q2" value="B">
+                <label  class="form-check-label">Telmo Zarra</label>
+              </div>
+              <div class="form-check my-2">
+                <input type="radio" name="q2" value="C">
+                <label  class="form-check-label">Laslzo Kubala</label>
+              </div>
+              <div class="form-check my-2">
+                <input type="radio" name="q2" value="D">
+                <label  class="form-check-label">Samuel Eto'o</label>
+              </div>
+    
+            </div>
+            <!-- END -->
+            <!-- NO 3 -->
+            <div class="my-2 p-4">
+              <h6 class="fw-semibold">3). Which Player stands above Iniesta but below Xavi in Barcelona's all-time appearances makers list?</h6>
+              <div class="form-check my-2">
+                <input type="radio" name="q3" value="A">
+                <label  class="form-check-label">Lionel Messi</label>
+              </div>
+              <div class="form-check my-2">
+                <input type="radio" name="q3" value="B">
+                <label  class="form-check-label">Sergio Busquets</label>
+              </div>
+              <div class="form-check my-2">
+                <input type="radio" name="q3" value="C">
+                <label  class="form-check-label">Carles Rexach</label>
+              </div>
+              <div class="form-check my-2">
+                <input type="radio" name="q3" value="D">
+                <label  class="form-check-label">Carles Puyol</label>
+              </div>
+    
+            </div>
+            <!-- END -->
+            <!-- NO 4 -->
+            <div class="my-2 p-4">
+              <h6 class="fw-semibold">4). What is Gerard Pique's fullname?</h6>
+              <div class="form-check my-2">
+                <input type="radio" name="q4" value="A">
+                <label  class="form-check-label">Gerad Pique Bernabeu</label>
+              </div>
+              <div class="form-check my-2">
+                <input type="radio" name="q4" value="B">
+                <label  class="form-check-label">Gerad Pique Casillas</label>
+              </div>
+              <div class="form-check my-2">
+                <input type="radio" name="q4" value="C">
+                <label  class="form-check-label">Gerad Pique Ramos</label>
+              </div>
+              <div class="form-check my-2">
+                <input type="radio" name="q4" value="D">
+                <label  class="form-check-label">Gerad Pique Gonzalez</label>
+              </div>
+    
+            </div>
+            <!-- END -->
+            <!-- NO 5 -->
+            <div class="my-2 p-4">
+              <h6 class="fw-semibold">5). Which of these Barcelona players did NOT win the Ballon d'or?</h6>
+              <div class="form-check my-2">
+                <input type="radio" name="q5" value="A">
+                <label  class="form-check-label">Johan Cruyff</label>
+              </div>
+              <div class="form-check my-2">
+                <input type="radio" name="q5" value="B">
+                <label  class="form-check-label">Rivaldo</label>
+              </div>
+              <div class="form-check my-2">
+                <input type="radio" name="q5" value="C">
+                <label  class="form-check-label">Ronaldinho</label>
+              </div>
+              <div class="form-check my-2">
+                <input type="radio" name="q5" value="D">
+                <label  class="form-check-label">Xavi</label>
+              </div>
+    
+            </div>
+            <!-- END -->
+            <!-- NO 6 -->
+            <div class="my-2 p-4">
+              <h6 class="fw-semibold">6). Who was the only Barcelona player to win a European Golden Shoe before Lionel Messi?</h6>
+              <div class="form-check my-2">
+                <input type="radio" name="q6" value="A">
+                <label class="form-check-label">Romario</label>
+              </div>
+              <div class="form-check my-2">
+                <input type="radio" name="q6" value="B">
+                <label class="form-check-label">Hristo Stoichkov</label>
+              </div>
+              <div class="form-check my-2">
+                <input type="radio" name="q6" value="C">
+                <label class="form-check-label">Ronaldo</label>
+              </div>
+              <div class="form-check my-2">
+                <input type="radio" name="q6" value="D">
+                <label class="form-check-label">Samuel Eto'o</label>
+              </div>
+    
+            </div>
+            <!-- END -->
+            <!-- NO 7 -->
+            <div class="my-2 p-4">
+              <h6 class="fw-semibold">7). Who of these English coaches did not manage Barcelona?</h6>
+              <div class="form-check my-2">
+                <input type="radio" name="q7" value="A">
+                <label class="form-check-label">Hebert Chapman</label>
+              </div>
+              <div class="form-check my-2">
+                <input type="radio" name="q7" value="B">
+                <label class="form-check-label">Vic Buckham</label>
+              </div>
+              <div class="form-check my-2">
+                <input type="radio" name="q7" value="C">
+                <label class="form-check-label">Terry Venables</label>
+              </div>
+              <div class="form-check my-2">
+                <input type="radio" name="q7" value="D">
+                <label class="form-check-label">Bobby Robson</label>
+              </div>
+    
+            </div>
+            <!-- END -->
+            <!-- NO 8 -->
+            <div class="my-2 p-4">
+              <h6 class="fw-semibold">8). Not counting Super Cups, how many major titles did Johan Cruyff win during his eight-year spell as manager?</h6>
+              <div class="form-check my-2">
+                <input type="radio" name="q8" value="A">
+                <label class="form-check-label">5</label>
+              </div>
+              <div class="form-check my-2">
+                <input type="radio" name="q8" value="B">
+                <label class="form-check-label">8</label>
+              </div>
+              <div class="form-check my-2">
+                <input type="radio" name="q8" value="C">
+                <label class="form-check-label">7</label>
+              </div>
+              <div class="form-check my-2">
+                <input type="radio" name="q8" value="D">
+                <label class="form-check-label">10</label>
+              </div>
+    
+            </div>
+            <!-- END -->
+            <!-- NO 9 -->
+            <div class="my-2 p-4">
+              <h6 class="fw-semibold">9). Derby Barcelona is played between which clubs?</h6>
+              <div class="form-check my-2">
+                <input type="radio" name="q9" value="A">
+                <label class="form-check-label">Barcelona and Girona</label>
+              </div>
+              <div class="form-check my-2">
+                <input type="radio" name="q9" value="B">
+                <label class="form-check-label">Barca and Real Madrid</label>
+              </div>
+              <div class="form-check my-2">
+                <input type="radio" name="q9" value="C">
+                <label class="form-check-label">Barca and Real betis</label>
+              </div>
+              <div class="form-check my-2">
+                <input type="radio" name="q9" value="D">
+                <label class="form-check-label">Barca and Espanyol</label>
+              </div>
+    
+            </div>
+            <!-- END -->
+            <!-- NO 10 -->
+            <div class="my-2 p-4">
+              <h6 class="fw-semibold">10). Which club do Barcelona have the lowest win percentage against in La Liga?</h6>
+              <div class="form-check my-2">
+                <input type="radio" name="q10" value="A">
+                <label class="form-check-label">Numanica</label>
+              </div>
+              <div class="form-check my-2">
+                <input type="radio" name="q10" value="B">
+                <label class="form-check-label">Real Madrid </label>
+              </div>
+              <div class="form-check my-2">
+                <input type="radio" name="q10" value="C">
+                <label class="form-check-label">Girona</label>
+              </div>
+              <div class="form-check my-2">
+                <input type="radio" name="q10" value="D">
+                <label class="form-check-label">Atletico Madrid</label>
+              </div>
+    
+            </div>
+            <!-- END -->
+            <!-- NO 11 -->
+            <div class="my-2 p-4">
+              <h6 class="fw-semibold">11). Which FC Barcelona player holds the record for the most appearances in the Copa del Rey?</h6>
+              <div class="form-check my-2">
+                <input type="radio" name="q11" value="A">
+                <label class="form-check-label">Xavi</label>
+              </div>
+              <div class="form-check my-2">
+                <input type="radio" name="q11" value="B">
+                <label class="form-check-label">Iniesta</label>
+              </div>
+              <div class="form-check my-2">
+                <input type="radio" name="q11" value="C">
+                <label class="form-check-label">Puyol</label>
+              </div>
+              <div class="form-check my-2">
+                <input type="radio" name="q11" value="D">
+                <label class="form-check-label">Messi</label>
+              </div>
+    
+            </div>
+            <!-- END -->
+            <!-- NO 12 -->
+            <div class="my-2 p-4">
+              <h6 class="fw-semibold">12). What was the original name of FC Barcelona when it was founded?</h6>
+              <div class="form-check my-2">
+                <input type="radio" name="q12" value="A">
+                <label class="form-check-label">Futbol Club Barcelona</label>
+              </div>
+              <div class="form-check my-2">
+                <input type="radio" name="q12" value="B">
+                <label class="form-check-label">Foot-ball Club Barcelona</label>
+              </div>
+              <div class="form-check my-2">
+                <input type="radio" name="q12" value="C">
+                <label class="form-check-label">Barcelona Football Club</label>
+              </div>
+              <div class="form-check my-2">
+                <input type="radio" name="q12" value="D">
+                <label class="form-check-label">Club de Futbol Barcelona</label>
+              </div>
+    
+            </div>
+            <!-- END -->
+            <!-- NO 13 -->
+            <div class="my-2 p-4">
+              <h6 class="fw-semibold">13). Who was the first english coach to manage FC Barcelona?</h6>
+              <div class="form-check my-2">
+                <input type="radio" name="q13" value="A">
+                <label class="form-check-label">Terry Venables</label>
+              </div>
+              <div class="form-check my-2">
+                <input type="radio" name="q13" value="B">
+                <label class="form-check-label">Bobby Robson</label>
+              </div>
+              <div class="form-check my-2">
+                <input type="radio" name="q13" value="C">
+                <label class="form-check-label">Hebert Chapman</label>
+              </div>
+              <div class="form-check my-2">
+                <input type="radio" name="q13" value="D">
+                <label class="form-check-label">Vic Buckingham</label>
+              </div>
+    
+            </div>
+            <!-- END -->
+            <!-- NO 14 -->
+            <div class="my-2 p-4">
+              <h6 class="fw-semibold">14). Which Fc Barcelona manager has the highest win percentage in La Liga?</h6>
+              <div class="form-check my-2">
+                <input type="radio" name="q14" value="A">
+                <label class="form-check-label">Pep Guardiola</label>
+              </div>
+              <div class="form-check my-2">
+                <input type="radio" name="q14" value="B">
+                <label class="form-check-label">Johan Cruyff</label>
+              </div>
+              <div class="form-check my-2">
+                <input type="radio" name="q14" value="C">
+                <label class="form-check-label">Frank Rijkaard</label>
+              </div>
+              <div class="form-check my-2">
+                <input type="radio" name="q14" value="D">
+                <label class="form-check-label">Luis Enrique</label>
+              </div>
+    
+            </div>
+            <!-- END -->
+            <!-- NO 15 -->
+            <div class="my-2 p-4">
+              <h6 class="fw-semibold">15). Which year was Fc Barcelona Founded?</h6>
+              <div class="form-check my-2">
+                <input type="radio" name="q15" value="A">
+                <label class="form-check-label">1897</label>
+              </div>
+              <div class="form-check my-2">
+                <input type="radio" name="q15" value="B">
+                <label class="form-check-label">1899</label>
+              </div>
+              <div class="form-check my-2">
+                <input type="radio" name="q15" value="C">
+                <label class="form-check-label">1920</label>
+              </div>
+              <div class="form-check my-2">
+                <input type="radio" name="q15" value="D">
+                <label class="form-check-label">1947</label>
+              </div>
+    
+            </div>
+            <!-- END -->
+            <!-- NO 16 -->
+            <div class="my-2 p-4">
+              <h6 class="fw-semibold">16). What is the name of Fc Barcelona's youth academy?</h6>
+              <div class="form-check my-2">
+                <input type="radio" name="q16" value="A">
+                <label class="form-check-label">La Cantera</label>
+              </div>
+              <div class="form-check my-2">
+                <input type="radio" name="q16" value="B">
+                <label class="form-check-label">La Fabrica</label>
+              </div>
+              <div class="form-check my-2">
+                <input type="radio" name="q16" value="C">
+                <label class="form-check-label">La Escuela</label>
+              </div>
+              <div class="form-check my-2">
+                <input type="radio" name="q16" value="D">
+                <label class="form-check-label">La Masia</label>
+              </div>
+    
+            </div>
+            <!-- END -->
+            <!-- NO 17 -->
+            <div class="my-2 p-4">
+              <h6 class="fw-semibold">17). Which of the following Fc Barcelona is not a product of La Masia?</h6>
+              <div class="form-check my-2">
+                <input type="radio" name="q17" value="A">
+                <label class="form-check-label">Pau Victor</label>
+              </div>
+              <div class="form-check my-2">
+                <input type="radio" name="q17" value="B">
+                <label class="form-check-label">Gavi</label>
+              </div>
+              <div class="form-check my-2">
+                <input type="radio" name="q17" value="C">
+                <label class="form-check-label">Balde</label>
+              </div>
+              <div class="form-check my-2">
+                <input type="radio" name="q17" value="D">
+                <label class="form-check-label">Olmo</label>
+              </div>
+    
+            </div>
+            <!-- END -->
+            <!-- NO 18 -->
+            <div class="my-2 p-4">
+              <h6 class="fw-semibold">18). Which of the following is a motto of Fc Barcelona?</h6>
+              <div class="form-check my-2">
+                <input type="radio" name="q18" value="A">
+                <label class="form-check-label">Mes que un clubee</label>
+              </div>
+              <div class="form-check my-2">
+                <input type="radio" name="q18" value="B">
+                <label class="form-check-label">Mes que un equip</label>
+              </div>
+              <div class="form-check my-2">
+                <input type="radio" name="q18" value="C">
+                <label class="form-check-label">Mes que un club</label>
+              </div>
+              <div class="form-check my-2">
+                <input type="radio" name="q18" value="D">
+                <label class="form-check-label">Mes que um club</label>
+              </div>
+    
+            </div>
+            <!-- END -->
+            <!-- NO 19 -->
+            <div class="my-2 p-4">
+              <h6 class="fw-semibold">19). Who was the first coach to win the La Liga title with Fc Barcelona?</h6>
+              <div class="form-check my-2">
+                <input type="radio" name="q19" value="A">
+                <label class="form-check-label">John Barrow</label>
+              </div>
+              <div class="form-check my-2">
+                <input type="radio" name="q19" value="B">
+                <label class="form-check-label">Jack Greenwall</label>
+              </div>
+              <div class="form-check my-2">
+                <input type="radio" name="q19" value="C">
+                <label class="form-check-label">Ralph Kirby</label>
+              </div>
+              <div class="form-check my-2">
+                <input type="radio" name="q19" value="D">
+                <label class="form-check-label">Jozsef Samitier</label>
+              </div>
+    
+            </div>
+            <!-- END -->
+            <!-- NO 20 -->
+            <div class="my-2 p-4">
+              <h6 class="fw-semibold">20). Which of the following is a nickname for Fc Barcelona's supporters?</h6>
+              <div class="form-check my-2">
+                <input type="radio" name="q20" value="A">
+                <label class="form-check-label">Cules</label>
+              </div>
+              <div class="form-check my-2">
+                <input type="radio" name="q20" value="B">
+                <label class="form-check-label">Barcelonistas</label>
+              </div>
+              <div class="form-check my-2">
+                <input type="radio" name="q20" value="C">
+                <label class="form-check-label">Blaugranas</label>
+              </div>
+              <div class="form-check my-2">
+                <input type="radio" name="q20" value="D">
+                <label class="form-check-label">Azulgranas</label>
+              </div>
+    
+            </div>
+            <!-- END -->
+            <div class="text-center">
+              <input type="submit" value="Submit" class="btn btn-primary text-center my-5">
+            </div>
+    
+          </form>
+
+          
+        </div>
+      </div>
+      <div class="text-center my-5">
+        <a href="index.html" class="fw-bold btn btn-gold">Back to Homepage</a>
+      </div>
+    </div>
+  </div>
+   
+  <script src="bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
